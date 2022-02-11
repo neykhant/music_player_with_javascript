@@ -1,0 +1,61 @@
+body {
+  background-color: darkslategray;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.audioTag {
+  margin-top: 20px;
+}
+
+.trackItem {
+  font-size: 30px;
+  padding: 10px 0;
+  border-bottom: 2px solid #fff;
+  width: 300px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+.musicPlayer {
+  display: flex;
+  flex-direction: row;
+}
+
+.currentAudioTotalTime {
+  color: #fff;
+}
+
+#progressBar {
+  width: 500px;
+  height: 5px;
+  background-color: darkgray;
+}
+
+#currentProgress {
+  width: 0px;
+  height: 100%;
+  background-color: red;
+}
+
+.controls {
+  font-size: 30px;
+  color: #fff;
+  margin: 20px 40px;
+  cursor: pointer;
+}
+
+.pauseButton {
+  display: none;
+}
+
+.playListContainer{
+    margin-bottom: 50px;
+}
